@@ -1,0 +1,52 @@
+/* Centering the root content */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* Main layout */
+.app {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* Canvas styling */
+.canvas-box {
+  margin: 1rem auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  display: block;
+}
+
+/* Status text */
+.tracker,
+.network-status {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Optional muted text style */
+.read-the-docs {
+  color: #888;
+}
+
+
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
